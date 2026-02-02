@@ -23,11 +23,10 @@
 # About
 
 This was originally a school assignment in high school for me, and since then I've been coming back to this and seeing
-if I can improve it in any way. This is my way of gauging how much I've grown as a programmer. The game isn't
-necessarily fun, per se, but it is interesting to look at some statistics. If you want to see statistics too, set your
+if I can improve it in any way. Its more of just for fun. The game isn't
+necessarily "enjoyable", but it is interesting to look at some statistics. If you want to see statistics too, set your
 name as `rtest` when creating a save to choose a level to be at. The charecter will scale itself accordingly, in a
-relatively fast manner. My main goal recently has been attempting to optimize the game for extremely high levels, for
-when inventory sizes are in the tens of thousands, and I think I have excelled in my goal.
+relatively fast manner. My main goal recently has been attempting to optimize the game for extremely high levels.
 
 # Images
 
