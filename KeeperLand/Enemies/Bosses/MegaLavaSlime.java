@@ -34,6 +34,7 @@ public class MegaLavaSlime extends Boss {
 
     @Override
     public void onDeath(Player p, List<Enemy> allies, Enemy self) {
+        super.onDeath(p, allies, self);
         System.out.println("The Mega Lava Slime splits into 3 Lava Slimes");
         for (int i = 0; i < 3; i++) {
             allies.add(new LavaSlime());

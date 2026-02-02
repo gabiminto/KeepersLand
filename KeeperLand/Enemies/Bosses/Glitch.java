@@ -39,6 +39,7 @@ public class Glitch extends Boss {
 
     @Override
     public void onDeath(Player p, List<Enemy> allies, Enemy self) {
+        super.onDeath(p, allies, self);
         p.setStageNum(p.getStageNum() - 1);
         List<Enemy> spawns = Helper.getEnemies(p);
         p.setStageNum(p.getStageNum() + 1);

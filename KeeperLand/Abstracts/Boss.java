@@ -32,7 +32,7 @@ public abstract class Boss extends Enemy {
         super.onDeath(p, allies, self);
         int t = r.nextInt(1, 4);
         p.setTokens(p.getTokens() + t);
-        System.out.println("You found " + Colors.CYAN + t + "◊" + Colors.RESET + " tokens");
+        System.out.println("You found " + Colors.CYAN + t + "₪" + Colors.RESET + " tokens");
     }
 
     public abstract void bossOnSpawn(List<Enemy> enemies);
